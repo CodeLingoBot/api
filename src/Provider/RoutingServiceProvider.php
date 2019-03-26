@@ -67,10 +67,5 @@ class RoutingServiceProvider extends ServiceProvider
      *
      * @return \Closure
      */
-    private function requestRebinder()
-    {
-        return function ($app, $request) {
-            $app['api.url']->setRequest($request);
-        };
-    }
+    
 }

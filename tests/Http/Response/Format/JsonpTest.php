@@ -39,12 +39,7 @@ class JsonpTest extends TestCase
      *
      * @return string
      */
-    private function getExpectedPrettyPrintedJsonp($testMethodName)
-    {
-        return require __DIR__.DIRECTORY_SEPARATOR.
-            'ExpectedPrettyPrintedJsonp'.DIRECTORY_SEPARATOR.
-            $testMethodName.'.jsonp.php';
-    }
+    
 
     public function testMorphingEloquentModel()
     {

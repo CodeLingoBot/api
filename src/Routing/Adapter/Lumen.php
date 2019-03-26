@@ -424,10 +424,5 @@ class Lumen implements Adapter
      *
      * @return array
      */
-    private function setRouteMethods($route, $method)
-    {
-        return isset($route['methods'])
-            ? array_push($route['methods'], $method)
-            : [$method];
-    }
+    
 }

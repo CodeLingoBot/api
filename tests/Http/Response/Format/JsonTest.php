@@ -37,12 +37,7 @@ class JsonTest extends TestCase
      *
      * @return string
      */
-    private function getExpectedPrettyPrintedJson($testMethodName)
-    {
-        return require __DIR__.DIRECTORY_SEPARATOR.
-            'ExpectedPrettyPrintedJson'.DIRECTORY_SEPARATOR.
-            $testMethodName.'.json.php';
-    }
+    
 
     public function testMorphingEloquentModel()
     {
